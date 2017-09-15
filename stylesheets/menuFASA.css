@@ -112,6 +112,10 @@
   .nav-dropdown {
     position: static;
   }
+
+  .brand {
+     margin-left: 10px;
+ }
 }
 @media screen and (min-width: 800px) {
   .nav-list {

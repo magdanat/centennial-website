@@ -160,11 +160,16 @@ header {
 
 .col {
    display: table-cell;
-   background-color: yellow;
+   background-color: #4993c6;
 }
 
 .verticle-menu {
-   width: 20%;
+   width: 100%;
+}
+
+div a:link{
+   text-decoration: none;
+   padding: 0;
 }
 
 .page-header {
