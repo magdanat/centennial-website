@@ -6,10 +6,11 @@
 
 .brand {
   position: absolute;
-  padding-left: 20px;
+  padding-left: 0px;
   float: left;
   line-height: 70px;
   font-size: 1.4em;
+  margin-left: -100px;
 }
 .brand a,
 .brand a:visited {
@@ -37,6 +38,7 @@
   position: relative;
   margin: 0;
   padding: 0;
+  font-size: 15px;
 }
 .test-nav ul li a,
 .test-nav ul li a:visited {
