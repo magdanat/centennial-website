@@ -169,7 +169,7 @@ header {
 
 div a:link{
    text-decoration: none;
-   padding: 0;
+   /* don't change padding here */
 }
 
 .page-header {
