@@ -86,7 +86,7 @@
   width: 70px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 985px) {
   .nav-mobile {
     display: block;
   }
@@ -117,7 +117,7 @@
      margin-left: 10px;
  }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 985px) {
   .nav-list {
     display: block !important;
   }
@@ -162,16 +162,20 @@
 }
 
 .test-article {
-  max-width: 1000px;
+  max-width: 2000px;
   margin: 0 auto;
   padding: 0;
-  background-color: white;
+  background-color: #e8e7e5;
 }
 
 .test-article h2 {
    font-size: 40px;
-   background-color: ;
-   padding: 10px 10px;
+   background-color: #A9A9A9;
+   padding-top: 40px;
+   padding-left: 130px;
+   padding-right: 130px;
+   padding-bottom: 40px;
+   color: #ffde73;
 }
 
 .test-article h3 {
@@ -217,8 +221,42 @@ a.fill-div {
 
 .test-article p,
 .test-article ul li {
-   letter-spacing: 1px;
+   letter-spacing: 0px;
    line-height: 200%;
    font-size: 20px;
    margin: 10px;
+   padding-top: 10px;
+   padding-left: 130px;
+   padding-right: 130px;
+}
+/* fonts */
+
+.work-sans {
+   font-family: Work Sans;
+}
+
+.abril-fatface {
+   font-family: Abril Fatface;
+}
+
+.archivo-black {
+   font-family: Archivo Black;
+}
+
+.source-code-pro {
+   font-family: Source Code Pro;
+}
+/* for changing test-article */
+@media only screen and (max-width: 985px) {
+   .test-article h2 {
+      font-size: 40px;
+      background-color: ;
+      padding-top: 20px;
+      padding-left: 30px;
+   }
+
+   .test-article p {
+      padding-top: 5px;
+      padding-left: 20px;
+   }
 }
