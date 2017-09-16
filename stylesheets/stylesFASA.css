@@ -160,9 +160,19 @@ header {
 
 .col {
    display: table-cell;
-   background-color: #4993c6;
+   background-color: #c92e2e;
+   padding: 20px;
+   text-align: center;
 }
 
+.col a {
+   color: white;
+}
+
+.col p {
+   color: white;
+   /*margin-left: 100px;*/
+}
 .verticle-menu {
    width: 100%;
 }
@@ -181,7 +191,7 @@ div a:link{
 
 .page-header h4 {
    margin-top: -30px;
-   margin-left: 175px;
+   margin-left: 120px;
    font-size: 50px;
    color: #4993c6;
 }
@@ -191,8 +201,12 @@ div a:link{
    padding: 0;
 }
 
+
+/* Font Section */
+
+
 @media only screen and (max-width: 800px) {
    .page-header h4 {
-      margin-left: 0px;
+      margin-left: 10px;
    }
 }
