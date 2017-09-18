@@ -201,6 +201,13 @@ div a:link{
    padding: 0;
 }
 
+.bar {
+   width: auto;
+   height: 20px;
+   background-color: yellow;
+   color: black;
+}
+
 
 /* Font Section */
 
