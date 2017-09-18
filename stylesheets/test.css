@@ -21,6 +21,10 @@
   float: left;
 }
 
+.brand a:hover {
+   color: blue;
+}
+
 .brand h1 {
    float: right;
    padding: 0;

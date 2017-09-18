@@ -169,6 +169,10 @@ header {
    color: white;
 }
 
+.col a:hover {
+   color: yellow;
+}
+
 .col p {
    color: white;
    /*margin-left: 100px;*/

@@ -173,6 +173,11 @@ header {
    color: white;
    /*margin-left: 100px;*/
 }
+
+.col a:hover {
+   color: yellow;
+}
+}
 .verticle-menu {
    width: 100%;
 }
@@ -207,6 +212,8 @@ div a:link{
    background-color: yellow;
    color: black;
 }
+
+
 
 @media only screen and (max-width: 945px) {
    .main-nav ul li a {
