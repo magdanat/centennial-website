@@ -13,7 +13,7 @@
   float: left;
   line-height: 70px;
   font-size: 1.4em;
-  margin-left: -100px;
+  margin-left: -50px;
   margin-bottom: 0;
 }
 .brand a,
@@ -90,6 +90,16 @@
   width: 70px;
 }
 
+
+@media only screen and (max-width: 1110px) {
+   .test-nav ul li a {
+      font-size: 13px;
+   }
+
+   .brand {
+      margin-left: 20px;
+   }
+}
 @media only screen and (max-width: 985px) {
   .nav-mobile {
     display: block;
@@ -255,7 +265,8 @@ a.fill-div h1:hover {
 .source-code-pro {
    font-family: Source Code Pro;
 }
-/* for changing test-article */
+
+
 @media only screen and (max-width: 985px) {
    .test-article h2 {
       font-size: 40px;
@@ -268,4 +279,5 @@ a.fill-div h1:hover {
       padding-top: 5px;
       padding-left: 20px;
    }
+
 }
