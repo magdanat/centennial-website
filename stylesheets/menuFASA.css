@@ -20,6 +20,18 @@
 .brand a:visited {
   color: #ffffff;
   text-decoration: none;
+  float: left;
+}
+
+.brand a:hover {
+   color: blue;
+}
+
+.brand h1 {
+   float: right;
+   padding: 0;
+   margin-top: 0px;
+   font-size: 30px;
 }
 
 .nav-container {
