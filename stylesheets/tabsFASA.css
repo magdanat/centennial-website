@@ -35,25 +35,28 @@ div.tab button.active {
 /* Style the tab content */
 .tabcontent {
     float: left;
-    padding: 0px 12px;
+    padding: 0;
     border: 1px solid #ccc;
     width: 70%;
     border-left: none;
     height: auto;
+    background-color: #e8e7e5;
 }
 
 .tabcontent h3 {
    font-size: 30px;
-   background-color: yellow;
-   padding: 10px 20px;
+   background-color: #A9A9A9;
+   color: #ffde73;
+   padding: 20px;
+   margin: 0;
 }
 
 
 .tabcontent ul {
-   background-color: white;
+   background-color: #e8e7e5;
 }
 .tabcontent ul li {
-   background-color: white;
+   background-color: #e8e7e5;
    list-style-type: square;
    font-size: 25px;
    padding: 10px;

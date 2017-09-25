@@ -1,123 +1,156 @@
 <!doctype html>
 
 <html>
-
-
    <head>
       <!-- Google Fonts -->
       <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
       <meta charset="utf-8">
       <title>FASA sa UW</title>
       <link rel="stylesheet" href="stylesheets/normalize.css">
-      <link rel="stylesheet" href="stylesheets/images.css">
       <link rel="stylesheet" href="stylesheets/styles.css">
+      <link rel="stylesheet" href="stylesheets/test.css">
+      <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Archivo+Black|Work+Sans" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script type ="text/javascript" src="../scripts/jquery-3.2.1.min.js"></script>
       <script type ="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
    </head>
 
-
    <body>
-      <header>
-         <div class="header-logo source-sans">
-            <img src="images/fasaLogo1.png" alt="FASA sa UW Logo">
-            <h2>
-               <font style="color: #c92e2e;">FILIPINO </font>
-               <font style="color: #4993c6;">AMERICAN </font>
-               <font style="color: #b5e1f0;">STUDENT </font>
-               <font style="color: #ffde73;">ASSOCIATION </font>
-            </h2>
-         </div>
-         <!-- Header Navigation Menu -->
-         <nav class="header-nav group source-sans">
-            <ul>
-               <li class="dropdown">
-                  <a href="about.html" class="dropbtn">ABOUT</a>
-                  <div class="dropdown-content">
-                     <a href="#">WHO ARE WE</a>
-                     <a href="#">WHAT WE STAND FOR</a>
-                     <a href="#">FOUR PILLARS</a>
-                     <a href="#">GET INVOLVED</a>
-                  </div>
-               </li>
-               <li><a href="officers.html">OFFICER BOARD</a></li>
-               <li class="dropdown">
-                  <a href="#" class="dropbtn">SAYAW</a>
-                  <div class="dropdown-content">
-                     <a href="#">WHAT IS SAYAW</a>
-                     <a href="#">SAYAW HISTORY</a>
-                     <a href="#">JOIN SAYAW</a>
-                  </div>
-               </li>
-               <li><a href="events.html">EVENTS</a></li>
-               <li><a href="fasastore.html">FASA STORE</a><li>
-            </ul>
-         </nav>
-
-         <div>
-            <img src="images/fasaBanner1.png" style="width: 100%">
-         </div>
+      <header class="source-sans">
+         <section class="navigation">
+           <div class="nav-container">
+             <div class="brand">
+               <a href="test.html">
+                  <img src="images/fasaLogo1.png" alt="FASA sa UW Logo" style="width: 70px; height: 70px;">
+               </a>
+               <a href="test.html"><h1 class="eb-garamond"> FASA sa UW </h1></a>
+             </div>
+             <nav class="test-nav">
+               <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+               <ul class="nav-list">
+                 <li>
+                   <a href="#!">ABOUT</a>
+                   <ul class="nav-dropdown">
+                      <li>
+                        <a href="fasa/about.html#who-are-we">WHO ARE WE</a>
+                     </li>
+                     <li>
+                        <a href="fasa/about.html#what-we-stand-for">WHAT WE STAND FOR</a>
+                     </li>
+                     <li>
+                        <a href="fasa/about.html#four-pillars">FOUR PILLARS</a>
+                     </li>
+                     <li>
+                        <a href="fasa/about.html#get-involved">GET INVOLVED</a>
+                     </li>
+                   </ul>
+                 </li>
+                 <li>
+                   <a href="fasa/officers.html">OFFICER BOARD</a>
+                 </li>
+                 <li>
+                   <a href="#!">SAYAW</a>
+                   <ul class="nav-dropdown">
+                      <li>
+                       <a href="fasa/sayaw.html#what-sayaw">WHAT IS SAYAW</a>
+                     </li>
+                     <li>
+                       <a href="fasa/sayaw.html#sayaw-history">SAYAW HISTORY</a>
+                     </li>
+                     <li>
+                       <a href="fasa/sayaw.html#join-sayaw">JOIN SAYAW</a>
+                     </li>
+                   </ul>
+                 </li>
+                 <li>
+                   <a href="https://squareup.com/market/filipino-american-student-association">FASA STORE</a>
+                 </li>
+                 <li>
+                    <a href="fasa/contact-us.html"> CONTACT US </a>
+                 </li>
+               </ul>
+             </nav>
+           </div>
+         </section>
       </header>
+
+
+
+         <section class="billboard-header">
+            <img src="images/fasaBanner1.png" style="width: 90%; margin: auto; margin-top: -525px; display: block;">
+         </section>
+
 
       <nav class="main-nav source-sans">
          <ul>
             <li class="dropdown">
-               <a href="#" class="dropbtn"> THE CENTENNIAL </a>
+               <a href="#" class="dropbtn"> THE CENTENNIAL ▾</a>
                <div class="dropdown-content">
-                  <a href="#">CELEBRATING 100 YEARS</a>
-                  <a href="#">OUR HISTORY</a>
-                  <a href="#">MEET THE COMMITTEE</a>
+                  <a href="centennial/the-centennial.html">CELEBRATING 100 YEARS</a>
+                  <a href="centennial/our-history.html">OUR HISTORY</a>
+                  <a href="centennial/meet-the-committee.html">MEET THE COMMITTEE</a>
                </div>
             </li>
             <li class="dropdown">
-               <a href="#" class="dropbtn">EVENTS</a>
+               <a href="centennial/events.html" class="dropbtn">EVENTS ▾</a>
                <div class="dropdown-content">
-                  <a href="#">KICK-OFF</a>
-                  <a href="#">GALA</a>
+                  <a href="centennial/events.html#kick-off">KICK-OFF</a>
+                  <a href="centennial/events.html#gala">GALA</a>
                </div>
             </li>
-            <li><a href="#">PROJECTS</a></li>
-            <li><a href="#">100 STORIES</a></li>
+            <li class="dropdown"><a href="#" class="dropbtn">PROJECTS ▾</a>
+               <div class="dropdown-content">
+                  <a href="centennial/projects.html#video-series">VIDEO SERIES</a>
+                  <a href="centennial/projects.html#research-project">RESEARCH PROJECT</a>
+                  <a href="centennial/projects.html#visual-representation">VISUAL REPRESENTATION </a>
+               </div>
+            </li>
+            <li><a href="centennial/100-stories.html">100 STORIES</a></li>
             <li class="dropdown">
-               <a href="#" class="dropbtn">GET INVOLVED</a>
+               <a href="#" class="dropbtn">GET INVOLVED ▾</a>
                <div class="dropdown-content">
-                  <a href="#">VOLUNTEER</a>
-                  <a href="#">PARTNER</a>
-                  <a href="#">SPONSOR</a>
+                  <a href="centennial/100-stories.html#volunteer">VOLUNTEER</a>
+                  <a href="centennial/100-stories.html#partner">PARTNER</a>
+                  <a href="centennial/100-stories.html#sponsor">SPONSOR</a>
                </div>
             </li>
-            <li><a href="#">DONATE</a></li>
+            <li><a href="fasa/donate.html">DONATE</a></li>
             <li><a href="#">CONTACT US</a></li>
          </ul>
       </nav>
 
-      <div class="main source-sans">
-         <h1> THE CENTENNIAL </h1>
-         <h1> EVENTS </h1>
-         <h1> PROJECTS </h1>
-         <h1> 100 STORIES </h1>
-         <h1> GET INVOLVED </h1>
-         <h1> THE CENTENNIAL </h1>
-         <h1> EVENTS </h1>
-         <h1> PROJECTS </h1>
-         <h1> 100 STORIES </h1>
-         <h1> GET INVOLVED </h1>
-      </div>
-
+      <section class="test-article source-sans">
+         <a href="centennial/the-centennial.html"><h2> THE CENTENNIAL </h2> </a>
+         <p> This coming year marks the 100th year of Filipino activity on the University of Washington Seattle Campus, with <thead>
+            Filipino Club established back in 1917 by pensionados. </p>
+         </thead>
+     </section>
 
       <footer class="source-sans">
 
          <div class="footer-container community">
             <div class="col">
-               <a href="#">Support Volunteers<br></a>
-               <a href="#">Be A Partner<br></a>
-               <a href="#">Be A Sponsor<br></a>
-               <a href="#">Share Your Story</br></a>
-            </div>
-            <div class="col partners">
-               <a href="#"> Test</a>
+               <a href="fasa/about.html" style="font-size: 30px;" class="source-code-pro"><b>FASA sa UW</b><br><br></a>
+               <a href="centennial/the-centennial.html">100 YEARS OF RISING<br><br></a>
+               <p style="font-size: 25px;"> Connect With Us: <br></p>
+               <a href="https://www.facebook.com/fasasauw/"><i class="fa fa-facebook-square" style="font-size: 40px;"></i></a>
+               <a href="https://www.youtube.com/user/UWFASA"><i class="fa fa-youtube-square" style="font-size: 40px;"></i></a>
+               <a href="https://www.twitter.com/fasasauw"><i class="fa fa-twitter-square" style="font-size: 40px;"></i></a>
+               <a href="https://www.instagram.com/fasasauw"><i class="fa fa-instagram" style="font-size: 40px;"></i></a>
+               <br><br>
+               <a href="centennial/get-involved.html#volunteer">Support Volunteers<br></a>
+               <a href="centennial/get-involved.html#be-a-partner">Be A Partner<br></a>
+               <a href="centennial/get-involved.html#be-a-sponsor">Be A Sponsor<br></a>
+               <a href="centennial/100-stories.html">Share Your Story</br></a>
+               <p> © 2017 FILIPINO AMERICAN STUDENT ASSOCIATION </p>
             </div>
          </div>
 
       </footer>
+
+      <script type="text/javascript" src="scripts/test.js"></script>
       <script type="text/javascript" src="scripts/sticky.js"></script>
    </body>
 </html>

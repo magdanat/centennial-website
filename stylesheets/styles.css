@@ -3,10 +3,11 @@
 }
 body {
    margin: 0;
+   background-color: #e8e7e5;
 }
 
 header {
-   height: 280px;
+   height: 600px;
 }
 
 .billboard {
@@ -14,7 +15,7 @@ header {
    text-decoration: none;
    overflow: none;
    margin: 0;
-   padding: 50px;
+   padding: 0px;
 }
 
 .billboard h1 {
@@ -24,7 +25,6 @@ header {
 
 .main-nav,
 .main {
-  position: relative;
 }
 
 .main-nav {
@@ -71,7 +71,7 @@ header {
 
 .main {
   background: white;
-  padding-top: 100px;
+  padding: 0;
   margin: 0;
   display: grid;
   text-align: center;
@@ -160,9 +160,81 @@ header {
 
 .col {
    display: table-cell;
-   background-color: yellow;
+   background-color: #c92e2e;
+   padding: 20px;
+   text-align: center;
 }
 
-.eb-garamond {
-   font-family: 'EB Garamond';
+.col a {
+   color: white;
+}
+
+.col p {
+   color: white;
+   /*margin-left: 100px;*/
+}
+
+.col a:hover {
+   color: yellow;
+}
+}
+.verticle-menu {
+   width: 100%;
+}
+
+div a:link{
+   text-decoration: none;
+   /* don't change padding here */
+}
+
+.page-header {
+   margin: 0;
+   padding: 0;
+   background-color: white;
+   font-size: 20px;
+}
+
+.page-header h4 {
+   margin-top: -30px;
+   margin-left: 120px;
+   font-size: 50px;
+   color: #4993c6;
+}
+
+.billboard-header {
+   margin: 0;
+   padding: 0;
+}
+
+.bar {
+   width: auto;
+   height: 20px;
+   background-color: yellow;
+   color: black;
+}
+
+
+
+@media only screen and (max-width: 945px) {
+   .main-nav ul li a {
+      text-decoration: none;
+      background-color: #4993c6;
+      color: white;
+      padding: 10px;
+   }
+}
+
+@media only screen and (max-width: 945px) {
+   .main-nav ul li a {
+      text-decoration: none;
+      background-color: #4993c6;
+      color: white;
+      padding: 6px;
+   }
+}
+
+@media only screen and (max-width: 800px) {
+   .page-header h4 {
+      margin-left: 10px;
+   }
 }
