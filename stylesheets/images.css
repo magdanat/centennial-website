@@ -1,3 +1,23 @@
+/* */
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url(https://lh3.googleusercontent.com/OdlPMbCtHe330zH3elQTsWE2ICLDydu4KMFNbKv3QKbv5L3luqx6mFWUpLYn6wVdlHJqy4xH_ve_-iBmtIkQ1mz7TfFn2SD9904rrRgBaNjCu4bomwhExPL9cSK6zvPhwM_W-1BguyZhNwpCcrNH7xmV2WQxsuAH-wIZ4JpYrSOEj84d6LEer6-8jY4XvaH6Gxb8Jp7BRC9HZyzpZYrjR7z3_QEdugo-ok3MI87mBRDigpwqsvLN7Mb6h_Dvty9Yy4Pjt0ILv1J-pf0evTvzuL0Ia4s3bxa2hzOUysArvQ9K1J8L1UeJ43uH4tZ14V2BwsRyTwS6Ik5hDS-b8B9vlK4Prr9QCkKhxP7alFgr7T84JosnGMKwaea6LGqURrvmO6o5G2gR4lK9CwYG7zmjgj9F5NtmSf8k_JYmGku3lN9KTcLM66Q6R8-BzeEpS4FNimhMd1wXh73XlmyFPSItc8ZQPGKVIxTRKvFKRQ-8p19HKDyyAYi9TJ9CCMSRSQx4DoU9paujAwBIUuKZoWl8HRYK7a8GDpKpfHBmMpwTZiea-Z8KYoI54QTij359AizyHN1ELDqtUOsX3pvMyPtZZ4tuZMm1i7PVMxzHjM5uJg=w1076-h651-no);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom: 20px;
+}
 .header-logo {
 }
 
@@ -14,19 +34,4 @@
    padding-top: 36px;
    padding-left: 5px;
    font-size: 30px;
-}
-
-.parallax {
-   background-image: url('../images/fasaBanner1.png');
-   height: 564px;
-   width: 100%;
-   background-repeat: no-repeat;
-   background-size: contain;
-   background-position: center;
-   /*
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: contain;
-   */
 }
