@@ -2,9 +2,6 @@
 .navigation {
   height: 75px;
   background: #4993c6;
-  border-bottom-style: solid;
-  border-bottom-color: #3a78a3;
-  border-width: 5px;
 }
 
 .brand {
@@ -103,7 +100,7 @@
   width: 70px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
 
    .brand h1 {
       font-size: 20px;
@@ -140,7 +137,7 @@
     position: static;
   }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
   .nav-list {
     display: block !important;
   }
@@ -217,4 +214,31 @@
 
 .test-article a h2:hover {
    color: yellow;
+}
+
+@media screen and (min-width: 500px) {
+   .test-article {
+     text-align: none;
+   }
+}
+
+@media only screen and  (max-width: 700px) {
+   .test-article h2 {
+      font-size: 25px;
+      padding: 10px;
+   }
+
+   .test-article p {
+      font-size: 15px;
+      padding: 0;
+      margin: 5px;
+      text-align: none;
+   }
+
+}
+
+@media only screen and (max-width: 280px) {
+   .brand h1{
+      font-size: 0px;
+   }
 }

@@ -190,7 +190,7 @@ div a:link{
    margin: 0;
    padding: 0;
    background-color: white;
-   font-size: 20px;
+   font-size: 40px;
 }
 
 .page-header h4 {
@@ -222,6 +222,11 @@ div a:link{
    }
 }
 
+@media only screen and (max-width: 700px) {
+   .page-header h4 {
+      font-size: 30px;
+   }
+}
 .raleway {
    font-family: 'Raleway', sans-serif;
 }

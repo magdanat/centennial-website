@@ -284,6 +284,7 @@ a.fill-div h1:hover {
       font-size: 40px;
       padding-top: 20px;
       padding-left: 30px;
+      padding-bottom: 20px;
    }
 
    .test-article p {
@@ -291,4 +292,18 @@ a.fill-div h1:hover {
       padding-left: 20px;
    }
 
+}
+
+@media only screen and  (max-width: 700px) {
+   .test-article h2 {
+      font-size: 25px;
+      padding: 10px;
+   }
+
+   .test-article p {
+      font-size: 15px;
+      padding: 0;
+      margin: 5px;
+      text-align: none;
+   }
 }
