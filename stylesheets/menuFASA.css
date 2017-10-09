@@ -306,4 +306,14 @@ a.fill-div h1:hover {
       margin: 5px;
       text-align: none;
    }
+
+   .test-article ul li {
+      font-size: 12px;
+      padding: 0;
+      margin: 5px;
+   }
+
+   .brand h1 {
+      font-size: 20px;
+   }
 }
